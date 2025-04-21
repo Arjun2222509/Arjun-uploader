@@ -495,8 +495,8 @@ async def arjun(bot: Client, m: Message):
             elif "acecwply" in url:
                 cmd = f'yt-dlp -o "{name}.%(ext)s" -f "bestvideo[height<={raw_text2}]+bestaudio" --hls-prefer-ffmpeg --no-keep-video --remux-video mkv --no-warning "{url}"'
            
-            elif "edge.api.brightcove.com" in url: # Code for iit made by Arjun 
-                url=url
+            #elif "edge.api.brightcove.com" in url: # Code for iit made by Arjun 
+                #url=url
            
            
             elif "edge.api.brightcove.com" in url:
